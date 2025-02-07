@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-box</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <div class="progress-bar">
+                <div class="progress" data-testid="progressBar"></div>
+            </div>
+
+            <!-- Color Box in the Center -->
+            <div class="color-box" data-testid="colorBox"></div>
+
+            <!-- Color Options Around the Color Box -->
+            <div class="color-options">
+            <!-- Color buttons will be dynamically generated here -->
+            </div>
+
+            <!-- Game Instructions -->
+            <p class="instructions" data-testid="gameInstructions">Guess the correct color!</p>
+
+            <!-- Game Status with Fade-In Animation -->
+            <p class="status" data-testid="gameStatus"></p>
+
+            <!-- Score -->
+            <p class="score">Score: <span data-testid="score">0</span></p>
+
+            <!-- New Game Button -->
+            <button class="new-game-btn" data-testid="newGameButton">New Game</button>
+        </div>
+    
+    </main>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
