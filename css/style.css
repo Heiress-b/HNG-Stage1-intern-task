@@ -18,7 +18,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 600px;
+    width: 400px;
     position: relative;
 }
   
@@ -122,29 +122,17 @@ body {
     background-color: #0056b3;
 }
   
-.leaderboard {
-    margin-top: 20px;
-    text-align: left;
-}
-  
-.leaderboard h2 {
-    margin-bottom: 10px;
-}
-  
-.leaderboard ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-}
-  
-.leaderboard ol li {
-    margin: 5px 0;
-}
-  
 @keyframes fadeIn {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
+    }
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 300px;
     }
 }
